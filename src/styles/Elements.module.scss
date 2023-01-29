@@ -1,0 +1,24 @@
+.input,
+.input:focus {
+  width: calc(100% - 20px);
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+}
+
+.input::placeholder {
+  color: #dedede;
+}
+
+.button {
+  width: 100%;
+  background-color: #1a73e8;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}

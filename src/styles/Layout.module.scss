@@ -1,0 +1,38 @@
+.nav {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+
+  li {
+    list-style: none;
+  }
+
+  ul {
+    margin-bottom: 0;
+  }
+
+  a {
+    color: #6fb6ff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-right: 20px;
+  }
+
+  .logo__nav {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.img {
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+}
+
+.body {
+  padding: 20px;
+  background-color: #fafafa;
+}

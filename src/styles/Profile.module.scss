@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.initial {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #fff;
+  margin-right: 10px;
+  background-color: #bdbdbd;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.email {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #166fb9;
+  margin-right: 10px;
+  text-transform: uppercase;
+
+  @media (max-width: 414px) {
+    display: none;
+  }
+}
+
+.popover {
+  box-shadow: 0 0 25px 3px rgba(0, 0, 0, 0.1);
+  border: unset !important;
+
+  div[class~="popover-arrow"]::before {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border: unset;
+    background-color: transparent;
+  }
+}

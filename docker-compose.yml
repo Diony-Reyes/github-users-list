@@ -1,0 +1,11 @@
+version: "3.1"
+
+services:
+  web:
+    container_name: github-user-list
+    build: .
+    restart: always
+    volumes:
+      - "./app:/var/lib/github-user-list"
+    ports:
+      - "3001:3000"

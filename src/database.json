@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Maria Acevedo",
+      "email": "maria.acevedo@ogtic.gob.do",
+      "password": "acevedo123"
+    },
+    {
+      "id": 2,
+      "name": "Francis Fulgencio",
+      "email": "francis.fulgencio@ogtic.gob.do",
+      "password": "fulgencio123"
+    },
+    {
+      "id": 3,
+      "name": "Tomas Familia",
+      "email": "tomas.familia@ogtic.gob.do",
+      "password": "familia123"
+    },
+    {
+      "id": 4,
+      "name": "Diony",
+      "email": "diony1991@gmail.com",
+      "password": "diony123"
+    }
+  ]
+}
