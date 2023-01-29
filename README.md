@@ -11,8 +11,6 @@ npm start
 
 docker-compose up -d --build
 
-#
-
 ## Lo más dificil
 
 Para decir algo lo más dificil fue implementar `material-ui`, ya que es la primera que lo utilizo,\
