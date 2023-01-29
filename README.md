@@ -4,14 +4,16 @@
 
 ### `Local`
 
-npm install --legacy-peer-deps\
-npm start
+1. Crear archivo .env o .env.local y agregar la variable `REACT_APP_GITHUB_TOKEN` con tu token de Github.\
+2. npm install --legacy-peer-deps\
+3. npm start
 
 ### `Docker`
 
-docker-compose up -d --build
+1. Crear archivo .env o .env.local y agregar la variable `REACT_APP_GITHUB_TOKEN` con tu token de Github.\
+2. docker-compose up -d --build
 
 ## Lo más dificil
 
-Para decir algo lo más dificil fue implementar `material-ui`, ya que es la primera que lo utilizo,\
+Para decir algo lo más dificil fue implementar `material-ui`, ya que es la primera que vez lo utilizo,\
 pero solo era cuestión de leer y ver que componentes trae y como utilizarlos.

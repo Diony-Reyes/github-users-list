@@ -1,4 +1,4 @@
-const GITHUB_TOKEN = "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";
+const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
 
 export const baseUrl = "https://api.github.com";
 
